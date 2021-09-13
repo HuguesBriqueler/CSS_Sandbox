@@ -1,6 +1,10 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
 
 body {
-  box-sizing: border-box;
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -10,20 +14,20 @@ body {
 .box {
   width: 100%;
   height: 100%;
-/*   padding: 20px;
- *//*   border: 5px dashed cadetblue;
- */  background-image: url(./image0001.jpg);
-/*   background-origin: border-box;
- */  background-repeat: no-repeat;
+  /* padding: 20px;
+  border: 5px dashed cadetblue; */
+  background-image: url(./image0001.jpg);
+  /* background-origin: border-box; */
+  background-repeat: no-repeat;
   background-color: coral;
-/*     background-position: left -560px top -510px; */
-background-size: cover;
+  /* background-position: left -560px top -510px; */
+  background-size: cover;
 }
 
 .title {
   margin: 0;
   font-size: 20px;
-  padding: 100px 0px 50px 300px ;
+  padding: 100px 0px 50px 300px;
   font-size: 40px;
   line-height: 150%;
   color: ghostwhite;
@@ -46,6 +50,7 @@ background-size: cover;
   left: 50px;
 }
 
-.shortTxt, .longTxt {
+.shortTxt,
+.longTxt {
   color: bisque;
 }

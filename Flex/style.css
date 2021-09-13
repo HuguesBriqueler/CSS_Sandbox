@@ -1,0 +1,45 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  display: inline-flex;
+  font-size: 30px;
+}
+
+.container1 {
+  background-color: aquamarine;
+}
+.container2 {
+  background-color: blueviolet;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.item1 {
+  background-color: palevioletred;
+}
+.item2 {
+  background-color: lawngreen;
+}
+.item3 {
+  background-color: lightgray;
+}
+.item4 {
+  background-color: gold;
+}
+.item5 {
+  background-color: chocolate;
+}
