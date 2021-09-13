@@ -1,0 +1,41 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contain {
+  /* this will fix it too */
+  /* border-top: 1px solid transparent; */
+  /* or */
+  /* padding-top: 120px; /* instead of margin on .box1*/
+  /* or */
+  /* display: flex; */
+  /*  or */
+  /* display: grid; */
+  background-color: lightblue;
+  width: 300px;
+  height : 300px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.box1 {
+  background-color: crimson;
+  width: 300px;
+  height: 80px;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+.box2 {
+  background-color: salmon;
+  width: 300px;
+  height: 80px;
+}.box3 {
+  background-color: gray;
+  width: 300px;
+  height: 80px;
+}
